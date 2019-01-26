@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Creation d'un client</title>
-    <a href="inc/style.css" type="text/css" rel="stylesheet"></a>
+    <a href="dist/css/style.css" type="text/css" rel="stylesheet"></a>
     </head>
     <body>
         <div>
@@ -29,7 +29,7 @@
                     <label for="telephoneClient">Numeros de telephone <span class="requis">*</span></label>
                     <input type="text" id="telephoneClient" name="telephoneClient" value="" size="20" maxlength="20"><br/>
                     
-                    <label for="emailClient">Numeros de telephone <span class="requis">*</span></label>
+                    <label for="emailClient">Adresse email <span class="requis">*</span></label>
                     <input type="text" id="emailClient" name="emailClient" value="" size="20" maxlength="60"><br/>
                 </fieldset>
                 <input type="submit" value="Valider"/>
