@@ -15,9 +15,9 @@ public class Commande {
     private String date;
     private Double montant;
     private String modePaiement;
-    private String statusPaiement;
+    private String statutPaiement;
     private String modeLivraison;
-    private String statusLivraison;
+    private String statutLivraison;
 
     public Commande() {
     }
@@ -54,12 +54,12 @@ public class Commande {
         this.modePaiement = modePaiement;
     }
 
-    public String getStatusPaiement() {
-        return statusPaiement;
+    public String getStatutPaiement() {
+        return statutPaiement;
     }
 
-    public void setStatusPaiement(String statusPaiement) {
-        this.statusPaiement = statusPaiement;
+    public void setStatutPaiement(String statutPaiement) {
+        this.statutPaiement = statutPaiement;
     }
 
     public String getModeLivraison() {
@@ -70,12 +70,13 @@ public class Commande {
         this.modeLivraison = modeLivraison;
     }
 
-    public String getStatusLivraison() {
-        return statusLivraison;
+    public String getStatutLivraison() {
+        return statutLivraison;
     }
 
-    public void setStatusLivraison(String statusLivraison) {
-        this.statusLivraison = statusLivraison;
+    public void setStatutLivraison(String statutLivraison) {
+        this.statutLivraison = statutLivraison;
     }
 
+   
 }
