@@ -10,11 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Creation d'un client</title>
-    <a href="dist/css/style.css" type="text/css" rel="stylesheet"></a>
+    <link  href="dist/css/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <div>
-            <form method="get" action="creationClient">
+            <form method="post" action="creationClient">
                 <fieldset>
                     <legend>Information Client</legend>
                     <label for="nomClient">Nom <span class="requis">*</span></label>

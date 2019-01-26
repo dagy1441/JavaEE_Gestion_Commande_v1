@@ -21,7 +21,14 @@ public class CreationClient extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        /**
+        
+    this.getServletContext().getRequestDispatcher("/creerClient.jsp").forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+/**
          * Récupération des données saisies, envoyées en tant que paramètres de
          * la requête GET générée à la validation du formulaire
          *
@@ -40,7 +47,8 @@ public class CreationClient extends HttpServlet {
          */
         if (nom.trim().isEmpty() || prenom.trim().isEmpty() || telephone.trim().isEmpty() || email.trim().isEmpty()) {
             message = "Erreur vous n'avez pas remplir tous les champa obligatoire. <br>"
-                    + "<a href=\"creerClient.jsp\">Cliquez ici</a>pour acceder au formulaire de cre1tion d'un client";
+                    + " <a href=\"creerClient.jsp\">Cliquez ici</a> pour accéder au formulaire de création d'un client.\";"
+             ;
         } else {
             message = "Client cree avec succes ";
         }
@@ -63,13 +71,6 @@ public class CreationClient extends HttpServlet {
         
         /* Transmission à la page JSP en charge de l'affichage des données */
         this.getServletContext().getRequestDispatcher("/afficherClient.jsp").forward(request, response);
-    
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-
     }
 
     /**
