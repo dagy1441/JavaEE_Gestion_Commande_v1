@@ -9,9 +9,20 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Affichage d' un client</title>
+        <link type="text/css" rel="stylesheet" href="dist/css/style.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
+
+        <%--Affichage de la chaine 'message' transmise a la servlet--%>
+        <p class="info"> ${message}</p>
+
+        <%--puis affichage desdonnees enregistrees dans le bean 'client' transmise a la servlet--%>
+        <p>Nom: ${client.nom}</p>
+        <p>Prenom: ${client.prenom}</p>
+        <p>Adresse: ${client.adresse}</p>
+        <p>Numero de telephone: ${client.telephone}</p>
+        <p>Email: ${client.email}</p>
+        
     </body>
 </html>
