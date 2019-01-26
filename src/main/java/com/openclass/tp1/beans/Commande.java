@@ -78,7 +78,4 @@ public class Commande {
         this.statusLivraison = statusLivraison;
     }
 
-    
-    
-
 }

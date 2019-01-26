@@ -13,7 +13,7 @@
     </head>
     <body>
         <div>
-            <form method="get" action="creationClient">
+            <form method="get" action="creationCommande">
                 <fieldset>
                     <legend>Information Client</legend>
                     <label for="nomClient">Nom <span class="requis">*</span></label>
