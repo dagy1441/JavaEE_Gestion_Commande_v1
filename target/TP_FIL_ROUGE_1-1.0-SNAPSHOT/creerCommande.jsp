@@ -8,9 +8,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-        <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Creer Commande</title>
+        <link type="text/css" href="style.css" rel="stylesheet"/>
     </head>
     <body>
         <div>
@@ -54,8 +54,7 @@
                     
                 </fieldset>
                 <input type="submit" value="Valider"/>
-                <input type="reset" value="Remettre a
-                       zero" />
+                <input type="reset" value="Remettre a zero" />
             </form>
         </div>
 

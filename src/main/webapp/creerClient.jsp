@@ -8,9 +8,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title>Creation d'un client</title>
-    <link  href="dist/css/style.css" type="text/css" rel="stylesheet">
+        <link  href="style.css"  rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div>
